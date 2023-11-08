@@ -1,0 +1,74 @@
+Estado atual: AAAA(0)
+Lista de estados abertos: BAAA(2) CAAA(3) 
+Lista de estados fechados: AAAA(0) 
+________________________________________________
+Estado atual: BAAA(2)
+Poda do estado CAAA(4)
+Lista de estados abertos: BCAA(6) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) 
+________________________________________________
+Estado atual: BCAA(6)
+Lista de estados abertos: CCAA(8) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) 
+________________________________________________
+Estado atual: CCAA(8)
+Poda do estado ACAA(11)
+Lista de estados abertos: CCBA(12) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) 
+________________________________________________
+Estado atual: CCBA(12)
+Lista de estados abertos: ACBA(15) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) 
+________________________________________________
+Estado atual: ACBA(15)
+Poda do estado BCBA(17)
+Lista de estados abertos: ABBA(18) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) 
+________________________________________________
+Estado atual: ABBA(18)
+Lista de estados abertos: BBBA(20) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) 
+________________________________________________
+Estado atual: BBBA(20)
+Poda do estado CBBA(22)
+Lista de estados abertos: BBBC(26) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) 
+________________________________________________
+Estado atual: BBBC(26)
+Lista de estados abertos: CBBC(28) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) 
+________________________________________________
+Estado atual: CBBC(28)
+Poda do estado ABBC(31)
+Lista de estados abertos: CABC(31) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) 
+________________________________________________
+Estado atual: CABC(31)
+Lista de estados abertos: AABC(34) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) 
+________________________________________________
+Estado atual: AABC(34)
+Poda do estado BABC(36)
+Lista de estados abertos: AACC(38) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) AABC(34) 
+________________________________________________
+Estado atual: AACC(38)
+Lista de estados abertos: BACC(40) CACC(41) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) AABC(34) AACC(38) 
+________________________________________________
+Estado atual: BACC(40)
+Poda do estado CACC(42)
+Lista de estados abertos: BCCC(44) CACC(41) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) AABC(34) AACC(38) BACC(40) 
+________________________________________________
+Estado atual: BCCC(44)
+Lista de estados abertos: CCCC(46) ACCC(46) CACC(41) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) AABC(34) AACC(38) BACC(40) BCCC(44) 
+________________________________________________
+Estado atual: CCCC(46)
+Poda do estado ACCC(49)
+Lista de estados abertos: ACCC(46) CACC(41) BABC(33) ABBC(28) CBBA(21) BCBA(14) ACAA(8) CAAA(3) 
+Lista de estados fechados: AAAA(0) BAAA(2) BCAA(6) CCAA(8) CCBA(12) ACBA(15) ABBA(18) BBBA(20) BBBC(26) CBBC(28) CABC(31) AABC(34) AACC(38) BACC(40) BCCC(44) CCCC(46) 
+________________________________________________
+O algoritmo chegou ao estado solucao CCCC com custo 46
+Caminho solucao: AAAA -> BAAA -> BCAA -> CCAA -> CCBA -> ACBA -> ABBA -> BBBA -> BBBC -> CBBC -> CABC -> AABC -> AACC -> BACC -> BCCC -> CCCC

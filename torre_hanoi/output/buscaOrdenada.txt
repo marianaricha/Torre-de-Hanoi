@@ -1,0 +1,323 @@
+Estado atual: AAAA(0)
+Lista de estados abertos: BAAA(2) CAAA(3) 
+Lista de estados fechados: AAAA(0) 
+________________________________________________
+Estado atual: BAAA(2)
+Poda do estado CAAA(4)
+Lista de estados abertos: CAAA(3) BCAA(6) 
+Lista de estados fechados: AAAA(0) BAAA(2) 
+________________________________________________
+Estado atual: CAAA(3)
+Poda do estado BAAA(5)
+Lista de estados abertos: BCAA(6) CBAA(6) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) 
+________________________________________________
+Estado atual: BCAA(6)
+Lista de estados abertos: CBAA(6) ACAA(8) CCAA(8) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) 
+________________________________________________
+Estado atual: CBAA(6)
+Lista de estados abertos: ACAA(8) CCAA(8) BBAA(8) ABAA(9) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) 
+________________________________________________
+Estado atual: ACAA(8)
+Poda do estado ABAA(11)
+Poda do estado CCAA(11)
+Lista de estados abertos: CCAA(8) BBAA(8) ABAA(9) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) 
+________________________________________________
+Estado atual: CCAA(8)
+Poda do estado ACAA(11)
+Lista de estados abertos: BBAA(8) ABAA(9) CCBA(12) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) 
+________________________________________________
+Estado atual: BBAA(8)
+Poda do estado ABAA(10)
+Lista de estados abertos: ABAA(9) CCBA(12) BBCA(14) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) 
+________________________________________________
+Estado atual: ABAA(9)
+Poda do estado BBAA(11)
+Poda do estado ACAA(12)
+Lista de estados abertos: CCBA(12) BBCA(14) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) 
+________________________________________________
+Estado atual: CCBA(12)
+Lista de estados abertos: BBCA(14) BCBA(14) ACBA(15) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) 
+________________________________________________
+Estado atual: BBCA(14)
+Lista de estados abertos: BCBA(14) ACBA(15) ABCA(16) CBCA(16) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) 
+________________________________________________
+Estado atual: BCBA(14)
+Poda do estado ACBA(16)
+Lista de estados abertos: ACBA(15) ABCA(16) CBCA(16) BABA(18) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) 
+________________________________________________
+Estado atual: ACBA(15)
+Poda do estado BCBA(17)
+Lista de estados abertos: ABCA(16) CBCA(16) BABA(18) ABBA(18) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) 
+________________________________________________
+Estado atual: ABCA(16)
+Poda do estado CBCA(19)
+Lista de estados abertos: CBCA(16) BABA(18) ABBA(18) ACCA(19) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) 
+________________________________________________
+Estado atual: CBCA(16)
+Poda do estado ABCA(19)
+Lista de estados abertos: BABA(18) ABBA(18) ACCA(19) CACA(19) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) 
+________________________________________________
+Estado atual: BABA(18)
+Lista de estados abertos: ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) 
+________________________________________________
+Estado atual: ABBA(18)
+Lista de estados abertos: ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) 
+________________________________________________
+Estado atual: ACCA(19)
+Lista de estados abertos: CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) CCCA(22) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) 
+________________________________________________
+Estado atual: CACA(19)
+Lista de estados abertos: AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) 
+________________________________________________
+Estado atual: AABA(20)
+Poda do estado AACA(24)
+Poda do estado CABA(23)
+Lista de estados abertos: CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) 
+________________________________________________
+Estado atual: CABA(20)
+Poda do estado AABA(23)
+Poda do estado CBBA(23)
+Lista de estados abertos: BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) 
+________________________________________________
+Estado atual: BBBA(20)
+Poda do estado CBBA(22)
+Lista de estados abertos: CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) 
+________________________________________________
+Estado atual: CBBA(21)
+Poda do estado CABA(24)
+Poda do estado BBBA(23)
+Lista de estados abertos: BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) 
+________________________________________________
+Estado atual: BCCA(21)
+Poda do estado CCCA(23)
+Poda do estado BACA(25)
+Lista de estados abertos: BACA(21) CCCA(22) AACA(22) BBBC(26) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) 
+________________________________________________
+Estado atual: BACA(21)
+Poda do estado BCCA(25)
+Poda do estado AACA(23)
+Lista de estados abertos: CCCA(22) AACA(22) BBBC(26) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) 
+________________________________________________
+Estado atual: CCCA(22)
+Poda do estado BCCA(24)
+Lista de estados abertos: AACA(22) BBBC(26) CCCB(27) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) 
+________________________________________________
+Estado atual: AACA(22)
+Poda do estado BACA(24)
+Poda do estado AABA(26)
+Lista de estados abertos: BBBC(26) CCCB(27) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) 
+________________________________________________
+Estado atual: BBBC(26)
+Lista de estados abertos: CCCB(27) CBBC(28) ABBC(28) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) 
+________________________________________________
+Estado atual: CCCB(27)
+Lista de estados abertos: CBBC(28) ABBC(28) BCCB(29) ACCB(30) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) 
+________________________________________________
+Estado atual: CBBC(28)
+Poda do estado ABBC(31)
+Lista de estados abertos: ABBC(28) BCCB(29) ACCB(30) CABC(31) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) 
+________________________________________________
+Estado atual: ABBC(28)
+Poda do estado CBBC(31)
+Lista de estados abertos: BCCB(29) ACCB(30) CABC(31) ACBC(31) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) 
+________________________________________________
+Estado atual: BCCB(29)
+Poda do estado ACCB(31)
+Lista de estados abertos: ACCB(30) CABC(31) ACBC(31) BACB(33) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) 
+________________________________________________
+Estado atual: ACCB(30)
+Poda do estado BCCB(32)
+Lista de estados abertos: CABC(31) ACBC(31) BACB(33) ABCB(33) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) 
+________________________________________________
+Estado atual: CABC(31)
+Lista de estados abertos: ACBC(31) BACB(33) ABCB(33) BABC(33) AABC(34) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) 
+________________________________________________
+Estado atual: ACBC(31)
+Lista de estados abertos: BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) 
+________________________________________________
+Estado atual: BACB(33)
+Lista de estados abertos: ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) 
+________________________________________________
+Estado atual: ABCB(33)
+Lista de estados abertos: BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) 
+________________________________________________
+Estado atual: BABC(33)
+Poda do estado BCBC(37)
+Poda do estado AABC(35)
+Lista de estados abertos: BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) 
+________________________________________________
+Estado atual: BCBC(33)
+Poda do estado CCBC(35)
+Poda do estado BABC(37)
+Lista de estados abertos: AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) 
+________________________________________________
+Estado atual: AABC(34)
+Poda do estado BABC(36)
+Lista de estados abertos: CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) 
+________________________________________________
+Estado atual: CCBC(34)
+Poda do estado BCBC(36)
+Lista de estados abertos: AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) 
+________________________________________________
+Estado atual: AACB(35)
+Poda do estado CACB(38)
+Lista de estados abertos: CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) 
+________________________________________________
+Estado atual: CACB(35)
+Poda do estado AACB(38)
+Poda do estado CBCB(38)
+Lista de estados abertos: BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) 
+________________________________________________
+Estado atual: BBCB(35)
+Poda do estado CBCB(37)
+Lista de estados abertos: CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) 
+________________________________________________
+Estado atual: CBCB(36)
+Poda do estado CACB(39)
+Poda do estado BBCB(38)
+Lista de estados abertos: AACC(38) CCAC(38) AABB(39) BBAB(40) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) 
+________________________________________________
+Estado atual: AACC(38)
+Lista de estados abertos: CCAC(38) AABB(39) BBAB(40) BACC(40) CACC(41) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) 
+________________________________________________
+Estado atual: CCAC(38)
+Lista de estados abertos: AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) 
+________________________________________________
+Estado atual: AABB(39)
+Lista de estados abertos: BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) 
+________________________________________________
+Estado atual: BBAB(40)
+Lista de estados abertos: BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) 
+________________________________________________
+Estado atual: BACC(40)
+Poda do estado CACC(42)
+Lista de estados abertos: BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) 
+________________________________________________
+Estado atual: BCAC(40)
+Poda do estado ACAC(42)
+Lista de estados abertos: CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) 
+________________________________________________
+Estado atual: CACC(41)
+Poda do estado BACC(43)
+Lista de estados abertos: ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) 
+________________________________________________
+Estado atual: ACAC(41)
+Poda do estado BCAC(43)
+Lista de estados abertos: BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) 
+________________________________________________
+Estado atual: BABB(41)
+Poda do estado CABB(43)
+Lista de estados abertos: CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) 
+________________________________________________
+Estado atual: CABB(42)
+Poda do estado BABB(44)
+Lista de estados abertos: CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) 
+________________________________________________
+Estado atual: CBAB(42)
+Poda do estado ABAB(45)
+Lista de estados abertos: ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) 
+________________________________________________
+Estado atual: ABAB(42)
+Poda do estado CBAB(45)
+Lista de estados abertos: BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) 
+________________________________________________
+Estado atual: BCCC(44)
+Lista de estados abertos: BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) 
+________________________________________________
+Estado atual: BAAC(44)
+Lista de estados abertos: CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) 
+________________________________________________
+Estado atual: CBCC(44)
+Lista de estados abertos: ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) ABCC(47) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) 
+________________________________________________
+Estado atual: ABAC(44)
+Lista de estados abertos: BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) 
+________________________________________________
+Estado atual: BCBB(45)
+Lista de estados abertos: CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) 
+________________________________________________
+Estado atual: CBBB(45)
+Lista de estados abertos: CAAB(45) ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) BBBB(47) ABBB(48) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) 
+________________________________________________
+Estado atual: CAAB(45)
+Lista de estados abertos: ACAB(45) ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) BBBB(47) BAAB(47) ABBB(48) AAAB(48) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) 
+________________________________________________
+Estado atual: ACAB(45)
+Lista de estados abertos: ACCC(46) CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) BBBB(47) BAAB(47) BCAB(47) ABBB(48) AAAB(48) CCAB(48) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) 
+________________________________________________
+Estado atual: ACCC(46)
+Poda do estado ABCC(49)
+Poda do estado CCCC(49)
+Lista de estados abertos: CCCC(46) AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) BBBB(47) BAAB(47) BCAB(47) ABBB(48) AAAB(48) CCAB(48) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) 
+________________________________________________
+Estado atual: CCCC(46)
+Poda do estado ACCC(49)
+Lista de estados abertos: AAAC(46) CAAC(46) BBCC(46) BBAC(46) ABCC(47) CBAC(47) ACBB(47) CCBB(47) BBBB(47) BAAB(47) BCAB(47) ABBB(48) AAAB(48) CCAB(48) 
+Lista de estados fechados: AAAA(0) BAAA(2) CAAA(3) BCAA(6) CBAA(6) ACAA(8) CCAA(8) BBAA(8) ABAA(9) CCBA(12) BBCA(14) BCBA(14) ACBA(15) ABCA(16) CBCA(16) BABA(18) ABBA(18) ACCA(19) CACA(19) AABA(20) CABA(20) BBBA(20) CBBA(21) BCCA(21) BACA(21) CCCA(22) AACA(22) BBBC(26) CCCB(27) CBBC(28) ABBC(28) BCCB(29) ACCB(30) CABC(31) ACBC(31) BACB(33) ABCB(33) BABC(33) BCBC(33) AABC(34) CCBC(34) AACB(35) CACB(35) BBCB(35) CBCB(36) AACC(38) CCAC(38) AABB(39) BBAB(40) BACC(40) BCAC(40) CACC(41) ACAC(41) BABB(41) CABB(42) CBAB(42) ABAB(42) BCCC(44) BAAC(44) CBCC(44) ABAC(44) BCBB(45) CBBB(45) CAAB(45) ACAB(45) ACCC(46) CCCC(46) 
+________________________________________________
+O algoritmo chegou ao estado solucao CCCC com custo 46
+Caminho solucao: AAAA -> BAAA -> BCAA -> CCAA -> CCBA -> ACBA -> ABBA -> BBBA -> BBBC -> CBBC -> CABC -> AABC -> AACC -> BACC -> BCCC -> CCCC
